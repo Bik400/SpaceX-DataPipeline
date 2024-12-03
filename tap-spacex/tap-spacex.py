@@ -14,13 +14,7 @@ def clean_float_for_json(value):
 
 def fetchData():
     """
-    Fetches data from the SpaceX API and stores it in a pandas dataframe
-
-    Args:
-        url (str) -> API url to fetch data
-    
-    Returns:
-        pd.DataFrame -> Returns pandas dataframe with api data
+    Fetches data from the SpaceX API
     """
     
     LOGGER = singer.get_logger()
